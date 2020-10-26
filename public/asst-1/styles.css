@@ -1,0 +1,152 @@
+/* || body layout */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #F48F7B;
+}
+
+/* || header layout */
+.header {
+  font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+  background: #d15604;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.header img {
+  max-height: 80px;
+  padding-top: 15px;
+}
+
+
+/* || wrapper layout */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* || content layout */
+.container {
+  max-width: 960px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+
+/* || content1 layout */
+.content1{
+  flex: 0 1 auto;
+  width: 175px;
+  margin: 15px;
+}
+.content1 p {
+  background: #e9c46a;
+  padding: 15px;
+  border-radius: 4px;
+  flex: 0 1 auto;
+}
+
+.content1 img {
+  display: block;
+  width: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+/* || content2 layout */
+.content2{
+  flex: 0 2 auto;
+  max-width: 640px;
+  background: #e9c46a;
+  padding: 15px;
+  margin: 15px;
+}
+
+.content2 h2{
+  font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+}
+
+
+/* || media */
+@media screen and (max-width:1000px){
+.container {
+  justify-content: center;
+}
+.content1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  margin-bottom:30px
+}
+.content1 p {
+  margin: 15x 0 0 0;
+}
+}
+
+/* || content1 layout */
+.content1{
+  flex: 0 1 auto;
+  width: 175px;
+  margin: 15px;
+}
+.content1 p {
+  background: #e9c46a;
+  padding: 15px;
+  border-radius: 4px;
+  flex: 0 1 auto;
+}
+
+.content1 img {
+  display: block;
+  width: inherit;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+/* || content2 layout */
+.content2{
+  flex: 0 2 auto;
+  max-width: 640px;
+  background: #e9c46a;
+  padding: 15px;
+  margin: 15px;
+}
+
+.content2 h2{
+  font: normal 18px/1.5 "Fira Sans", "Helvetica Neue", sans-serif;
+}
+
+
+/* || media */
+@media screen and (max-width:1000px){
+.container {
+  justify-content: center;
+}
+.content1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  margin-bottom:30px
+}
+.content1 p {
+  margin: 15x 0 0 0;
+}
+}
