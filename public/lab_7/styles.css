@@ -46,8 +46,8 @@ body {
 }
 
 .flex-outer button {
-  background-color: darkolivegreen;
-  color: white;
+  background-color: rgb(29, 248, 248);
+  color: rgb(247, 71, 71);
   padding: 6px 12px;
   border: none;
   text-transform: uppercase;
@@ -84,7 +84,7 @@ h1 {
   margin: 20px 50px;
   padding: 0 20px;
   min-height: 75px;
-  background-color: darkolivegreen;
+  background-color: rgb(248, 29, 29);
   color: white;
   display: flex;
   
